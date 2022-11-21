@@ -1,0 +1,60 @@
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/lato-medium-webfont.woff2") format("woff2"), 
+   url("../fonts/lato-medium-webfont.woff") format("woff");
+   font-weight: 500;
+   font-display: swap;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/lato-semibold-webfont.woff2") format("woff2"), 
+   url("../fonts/lato-semibold-webfont.woff") format("woff");
+   font-weight: 600;
+   font-display: swap;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Georgia";
+   src: url("../fonts/georgia_regular-webfont.woff2") format("woff2"), 
+   url("../fonts/georgia_regular-webfont.woff") format("woff");
+   font-weight: 400;
+   font-display: swap;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Georgia";
+   src: url("../fonts/georgia_bold-webfont.woff2") format("woff2"), 
+   url("../fonts/georgia_bold-webfont.woff") format("woff");
+   font-weight: 700;
+   font-display: swap;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Avenir";
+   src: url("../fonts/avenir-black-webfont.woff2") format("woff2"),
+    url("../fonts/avenir-black-webfont.woff") format("woff");
+   font-weight: 900;
+   font-display: swap;
+   font-style: normal;
+}
+
+body {
+   font-family: "Lato", sans-serif;
+   font-size: 20px;
+   color: $text-color;
+   line-height: 30px; 
+}
+.container {
+   max-width: 1400px;
+   margin: 0px auto;
+   padding: 0px 15px;
+}
+a:focus,a:active,a:hover{
+   color: #01996D;
+   text-decoration: underline;  
+}
+button:hover{
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 255, 255);
+}

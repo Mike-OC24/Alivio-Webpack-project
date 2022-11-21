@@ -1,0 +1,21 @@
+.footer {
+   background-color: $background-color;
+   .footer__nav {
+      padding: 95px 0px 144px;
+   }
+   .footer__nav-item:not(:last-child) {
+      margin-bottom: 60px;
+   } 
+   .footer__nav-link {
+      font-weight: 600;
+      font-size: 25px;
+      color: #FFFFFF;
+   }
+   .footer__nav-link--logo {
+      font-family: 'Avenir';
+      font-size: 40px;
+      line-height: 55px;
+   }
+}
+
+

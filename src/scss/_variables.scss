@@ -1,0 +1,24 @@
+$text-color: #424242;
+$button-background: #01996D;    
+$button-text:#FFFFFF;
+$title-text-color: #01996D;
+$color-number: rgba(1, 153, 109, 0.2);
+$background-color: #245852;
+%button {
+   display: inline-block;
+   padding: 20px 50px;
+   min-width: 183px;
+   background: $button-background;
+   border: 1px solid $button-background;
+   border-radius: 4px;
+   line-height: 24px;
+   text-align: center;
+   color: $button-text;
+}
+
+%title {
+   font-family: 'Georgia';
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 79px;
+   }
